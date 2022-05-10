@@ -1,5 +1,7 @@
 import axios from "axios"
 
+// This its the edit user service, recives the id and the edit information object from the cardUser(id), and the data from createUserForm.
+
 const editUser= async (id,data)=>{
 
 
