@@ -12,7 +12,7 @@ import editUser from './services/editUser';
 function App() {
 
 
-//=========================States=========================================================================================== 
+//=========================useStates========================================================================================
   const[deleteId,setDeleteId]=useState('')
   const[editId,setEditId]=useState('')
   const[users,setUsers]=useState([])
