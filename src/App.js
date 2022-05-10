@@ -67,6 +67,7 @@ function App() {
     
         })
     }
+    // eslint-disable-next-line
   },[deleteId])
 
 
@@ -83,7 +84,7 @@ function App() {
          setEditNewValues({})
        })
     }
-
+// eslint-disable-next-line
    },[editId,editNewValues])
 
 
